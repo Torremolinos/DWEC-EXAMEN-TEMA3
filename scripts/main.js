@@ -56,8 +56,8 @@ class Ball {
 }
 
 const balls = [];
-
-while (balls.length < 4) {
+//cambio el numero de bolas para que sea mas visual. pero no es el error...
+while (balls.length < 25) {
     const size = random(10, 20);
     const ball = new Ball(
         random(0 + size, width - size),
@@ -71,7 +71,8 @@ while (balls.length < 4) {
 }
 
 function loop() {
-    ctx.fillStyle = 'rgba(0, 245, 0, 0.25)';
+    //El color del fondo es verde asi que si cambiamos los paramtros rgba a (0,0,0,0.25) lo dejamos de color negro.
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.25)';
     ctx.fillRect(0, 0, width, height);
 
     for (const ball of balls) {
