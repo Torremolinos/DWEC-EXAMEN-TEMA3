@@ -7,7 +7,7 @@ body{
     /*Overflow y hidden esconde la barra de los lados y de abajo para el desplazamiento*/
     overflow: hidden;
     height: inherit;
-    background-color: black;
+    /*Aqui tenia yo un backgroud color pero no hacia falta.*/
 }
 h1{
     text-align: center;
