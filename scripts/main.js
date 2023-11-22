@@ -26,7 +26,8 @@ class Ball {
     draw() {
         ctx.beginPath();
         ctx.fillStyle = this.color;
-        ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI());
+        //Encontre otro error, que es que Math.PI no lleva () para ser ejecutado. Gracias a las herramientas de desarrollador.
+        ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
         ctx.fill();
     }
 
