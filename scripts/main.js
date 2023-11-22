@@ -1,6 +1,6 @@
 /**
  * @author: Adrián Iglesias Riño
- * @github: 
+ * @github: https://github.com/Torremolinos/DWEC-EXAMEN-TEMA3
  */
 import { random, width,height,loop } from "./canvas-setup.js";
 import { Ball } from "./class-ball.js";
