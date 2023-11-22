@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    /*Overflow y hidden esconde la barra de los lados y de abajo para el desplazamiento*/
+    overflow: hidden;
+    height: inherit;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    /*esto fija el h1*/
+    position: absolute;
+    /*esto lo mueve un 50% a la izquierda*/
+    left: 50%;
+    /*esto a la derecha, bueno cuando estudie metal tenia que saber de posiciones y ejes y creo 
+    que debe ser para esto, a ver lo vi mil veces ayer.*/
+    transform: translateX(-50%);
+    /*la opacidad hablamos de que tanto podemos verlo.*/
+    opacity: 0.5;
+}
